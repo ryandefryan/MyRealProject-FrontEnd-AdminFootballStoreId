@@ -1,0 +1,35 @@
+.myfsid-clickable-element{
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.myfsid-sidebar{
+    width: 226px;
+    height: 100%;
+    position: fixed;
+    background-color: #fdfdfd;
+    box-shadow: rgba(0,0,0, 0.5) 0px 5px 15px;
+    margin-left: -15px;
+    padding: 0;
+    overflow: auto;
+  }
+  
+  .myfsid-sidebar a{
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+    color: black;
+  }
+   
+  .myfsid-sidebar a.active{
+    background-color: #e4e3e3;
+    color: #303841;
+  }
+  
+  .myfsid-sidebar a:hover:not(.active){
+    background-color: #555;
+    color: white;
+  }
